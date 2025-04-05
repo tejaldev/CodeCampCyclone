@@ -31,8 +31,6 @@ All inside the mighty **Halls of Coover**! 🏰
 
 👉 [Visit CooverQuest Here](http://localhost:3000/)  
 
-(Replace `yourusername` with your actual GitHub username!)
-
 ---
 
 ## 🧩 How to Play
