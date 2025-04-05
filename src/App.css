@@ -1,0 +1,284 @@
+
+
+.Level3-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.Level3-image {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border: 5px solid #36006a;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #4b0082;
+}
+
+
+.Level2-text {
+  margin: 2rem 0;
+  color: #ffffff;
+  font-family: 'Times New Roman', serif;
+  text-align: center;
+}
+
+.Encoded-text {
+  font-size: 1.5rem;
+  color: #ffd700;
+  margin: 1rem 0;
+  font-style: italic;
+}
+
+.Hint-text {
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: #dddddd;
+}
+
+
+.Level-title {
+  font-size: 2.5rem;
+  color: #ffd700;
+  font-family: 'Cinzel Decorative', cursive;
+  margin-bottom: 1rem;
+}
+
+.Level-image {
+  max-width: 400px; /* smaller fixed width */
+  width: 100%;
+  height: auto;
+  margin: 2rem 0;
+  border: 5px solid #2dc1e6;
+  border-radius: 12px;
+  /* box-shadow: 0 0 20px #4b0082; */
+}
+
+.Level-input-area {
+  margin: 2rem 0;
+}
+
+.Level-input {
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: 2px solid #22dbe5; /* <-- Nice gold border */
+  background-color: rgba(255, 255, 255, 0.1); /* semi-transparent white background */
+  color: #ffffff;
+  width: 250px;
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  outline: none; /* remove blue glow on focus */
+}
+
+.Level-input:focus {
+  border-color: #2dc1e6; /* glowing blue border on focus */
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.Level-button {
+  background-color: #4b0082;
+  color: #ffd700;
+  font-size: 1.1rem;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Cinzel Decorative', cursive;
+  position: fixed; /* <-- fixed so it sticks */
+  bottom: 30px; /* distance from bottom */
+  right: 30px;  /* distance from right */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  z-index: 1000; /* stay above other stuff */
+}
+
+.Level-button:hover {
+  background-color: #36006a;
+  transform: scale(1.05);
+}
+
+.Quest-button {
+  background-color: #2ba5e8; /* Dark spooky indigo */
+  color: #ffd700; /* Gold text */
+  font-size: 1.2rem;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Cinzel Decorative', cursive;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.Quest-button:hover {
+  background-color: #36006a; /* Even spookier indigo on hover */
+  transform: scale(1.05);
+}
+
+
+.Quest-title {
+  font-size: 3rem;
+  color: #ffd700; /* Gold color */
+  font-family: 'Cinzel Decorative', cursive; /* Medieval font */
+  margin-bottom: 1rem;
+}
+
+.Quest-intro {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  font-family: 'Times New Roman', serif;
+}
+
+
+.Quest-rules {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.Quest-rules li {
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin: 0.5rem 0;
+  font-family: 'Times New Roman', serif;
+}
+
+.Quest-footer {
+  font-size: 1rem;
+  color: #ffffff;
+  font-style: italic;
+  font-family: 'Times New Roman', serif;
+}
+
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  /* background: linear-gradient(135deg, #990000, #f1e8e6); ISU colors */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffd700; /* Gold-like color */
+  margin-bottom: 0.5rem;
+}
+
+.App-subtitle {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.App-buttons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.App-button {
+  background-color: #ffd700;
+  color: #990000;
+  font-size: 1rem;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.App-button:hover {
+  background-color: #cc9900;
+  transform: scale(1.05);
+}
+
+.scroll-content {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: scrollFadeIn 2.5s ease-out forwards;
+}
+
+@keyframes scrollFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+.scroll-box {
+  background-color: rgba(0, 0, 0, 0.7); /* semi-transparent black */
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  max-width: 700px;
+  width: 90%;
+  opacity: 0;
+  transform: translateY(100px);
+  animation: scrollFadeInBox 2s ease-out forwards;
+}
+
+.scroll-content {
+  text-align: center;
+}
+
+@keyframes scrollFadeInBox {
+  0% {
+    opacity: 0;
+    transform: translateY(100px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+.Level-images-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.Pivot-image {
+  width: 100px;
+  height: auto;
+  animation: flipImage 3s infinite ease-in-out alternate;
+  transform-style: preserve-3d;
+}
+
+.Level-image {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border: 5px solid #2dc1e6;
+  border-radius: 12px;
+  /* Optional box-shadow if you want glow */
+}
+
+@keyframes flipImage {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
