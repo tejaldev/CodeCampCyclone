@@ -42,3 +42,16 @@ All inside the mighty **Halls of Coover**! 🏰
 5. Conquer the final trial and become the **Champion of CooverQuest**! 🏆
 
 ---
+
+## 🛠️ Installation Instructions
+
+Clone the repository and begin your quest: (On bash for windows and terminal for mac)
+
+1. git clone https://github.com/tejaldev/CodeCampCyclone.git
+2. cd CodeCampCyclone
+3. npm install
+4. npm start
+
+
+
+
