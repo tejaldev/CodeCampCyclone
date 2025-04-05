@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CodeCampCyclone/static/css/main.285bfdf9.css",
+    "main.js": "/CodeCampCyclone/static/js/main.161a6584.js",
+    "static/js/453.be7de318.chunk.js": "/CodeCampCyclone/static/js/453.be7de318.chunk.js",
+    "static/media/backgroundCodeCamp.png": "/CodeCampCyclone/static/media/backgroundCodeCamp.6c1ffaf6cd55b2d70c4b.png",
+    "static/media/level1.png": "/CodeCampCyclone/static/media/level1.14134995ab3300183b3d.png",
+    "static/media/level4.png": "/CodeCampCyclone/static/media/level4.44d5facb6d9eeef50065.png",
+    "static/media/level3.png": "/CodeCampCyclone/static/media/level3.8c6d89cbea9f9e283e5b.png",
+    "static/media/level3hint.png": "/CodeCampCyclone/static/media/level3hint.f5d93c1e8627d8ea9fc3.png",
+    "static/media/backgroundLVL1.jpg": "/CodeCampCyclone/static/media/backgroundLVL1.688fe06aac50026a6f8f.jpg",
+    "static/media/level1pivotimg.jpg": "/CodeCampCyclone/static/media/level1pivotimg.b7a185aca0cab91127bb.jpg",
+    "index.html": "/CodeCampCyclone/index.html",
+    "main.285bfdf9.css.map": "/CodeCampCyclone/static/css/main.285bfdf9.css.map",
+    "main.161a6584.js.map": "/CodeCampCyclone/static/js/main.161a6584.js.map",
+    "453.be7de318.chunk.js.map": "/CodeCampCyclone/static/js/453.be7de318.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.285bfdf9.css",
+    "static/js/main.161a6584.js"
+  ]
+}
